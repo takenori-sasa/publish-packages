@@ -15,5 +15,5 @@ jobs:
           username: takenori-sasa
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: /publish-packages/game
+          repository: takenori-sasa/publish-packages/game
           tag_with_sha: true
